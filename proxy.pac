@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) {
-    var proxy = "PROXY 5.8.13.74:8000";
+    var proxy = "SOCKS5 5.8.13.74:8000";
     
     var patterns = ["2ip.ru",
                     "rutor.info",
