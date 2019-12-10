@@ -8,7 +8,8 @@ function FindProxyForURL(url, host) {
                     "*slack*",
                     "*rollbar.com",
                     "*zoom.com",
-                    "*confluence*"];
+                    "*confluence*",
+                    "fabric"];
     
     for (regex of patterns) {
         if (shExpMatch(host, regex))
