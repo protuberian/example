@@ -9,7 +9,7 @@ function FindProxyForURL(url, host) {
                     "*rollbar.com",
                     "*zoom.com",
                     "*confluence*",
-                    "fabric"];
+                    "*fabric.io"];
     
     for (regex of patterns) {
         if (shExpMatch(host, regex))
