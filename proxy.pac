@@ -4,6 +4,7 @@ function FindProxyForURL(url, host) {
     var patterns = ["2ip.ru",
                     "rutor.info",
                     "free-rutor.org",
+                    "film-tor.info",
                     "*atlassian*",
                     "*slack*",
                     "*rollbar.com",
