@@ -10,6 +10,7 @@ function FindProxyForURL(url, host) {
                     "*zoom.com",
                     "*confluence*",
                     "*fabric.io",
+                    "*firebase*",
                     "*lostfilm.tv"];
     
     for (regex of patterns) {
